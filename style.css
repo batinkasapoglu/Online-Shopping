@@ -1,0 +1,107 @@
+/* Resetleme işlemleri */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Genel düzenlemeler */
+
+/* Navbar */
+.headerTop {
+  padding-left: 50px;
+}
+
+.navBottom {
+  padding-left: 30px;
+}
+
+.ulke-select {
+  width: 50px;
+  height: 25px !important;
+  font-size: 10px;
+}
+
+/* Index */
+.maincont {
+  width: 95%;
+}
+
+
+.indlogo {
+  width: 75px !important;
+  height: 75px !important;
+  object-fit: fill;
+}
+
+.crs {
+  height: 300px !important;
+}
+
+
+/* cart */
+.cartbtn {
+  width: 40px;
+  height: 25px;
+}
+/* Footer */
+
+.fcard {
+  height: 100px;
+}
+
+/* Kayıt sayfası */
+
+.or {
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 993px) {
+  .map {
+    width: 50% !important;
+  }
+  .crs {
+    max-height: 250px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .fcard {
+    width: 50% !important;
+  }
+
+  .cardcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .contcrs {
+    width: 75% !important;
+    max-height: 250px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .crs {
+    max-height: 100px;
+  }
+
+  .fform {
+    width: 50%;
+  }
+
+  .fformcont {
+    display: flex;
+    justify-content: center;
+  }
+}
+  

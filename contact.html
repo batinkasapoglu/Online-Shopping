@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/6737fd8cec.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- External css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand d-block">
+      <!-- Header -->
+      <div class="container-fluid row fs-6 d-lg-flex d-block">
+        <!-- Header sol -->
+        <div
+          class="container col headerTop text-lg-start text-md-center text-sm-center text-center"
+        >
+          <span class="navbar-text"
+            ><i class="fa-regular fa-envelope"></i> info@domain.com</span
+          >
+          <span class="navbar-text"
+            ><i class="fa-solid fa-phone ms-2"></i> 0555 555 55 55</span
+          >
+        </div>
+
+        <!-- Header sağ -->
+        <div
+          class="container col d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center justify-content-center column-gap-5 me-lg-5 me-md-0 me-sm-0 fs-6"
+        >
+          <a href="https://www.facebook.com"
+            ><i class="text-black fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com"
+            ><i class="text-black fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/?original_referer="
+            ><i class="text-black fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="www.google.com"
+            ><i class="text-black fa-brands fa-google"></i
+          ></a>
+          <a href="https://dribbble.com"
+            ><i class="text-black fa-brands fa-dribbble"></i
+          ></a>
+        </div>
+      </div>
+
+      <!-- Navbar orta -->
+      <div class="container-fluid row d-lg-flex d-block">
+        <!-- Navbar orta sol -->
+        <div
+          class="container col d-flex justify-content-lg-start justify-content-center"
+        >
+          <a
+            class="navbar-brand logo m-0 justify-content-end d-flex align-items-center"
+            href="#"
+          >
+            <img class="w-75 indlogo" src="/img/logo3.png" alt=""
+          /></a>
+          <h1 class="mt-2 me-4 d-flex align-items-center">E-Shopper</h1>
+          <div
+            class="form-floating d-flex justify-content-center align-items-center column-gap-2 w-25"
+          >
+            <select
+              class="form-select shadow-none rounded-0 p-0 ps-1 ulke-select border-dark-subtle"
+              id="floatingSelect1"
+              aria-label="Floating label select example"
+            >
+              <option value="1">USA</option>
+              <option value="2">TR</option>
+              <option value="3">CN</option>
+            </select>
+
+            <select
+              class="form-select shadow-none rounded-0 p-0 ps-1 ulke-select border-dark-subtle"
+              id="floatingSelect2"
+              aria-label="Floating label select example"
+            >
+              <option value="1">$</option>
+              <option value="2">₺</option>
+              <option value="3">$</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Navbar orta sağ -->
+        <div
+          class="container col d-flex justify-content-lg-end justify-content-center fs-6"
+        >
+          <ul class="navbar-nav list-group-horizontal-md">
+            <li class="nav-item">
+              <a class="nav-link" href="/signUp.html"
+                ><i class="fa-solid fa-user me-1"></i>Account</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/shop.html"
+                ><i class="fa-solid fa-star me-1"></i>Wishlist</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-crosshairs me-1"></i>Checkout</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/shoppingCart.html"
+                ><i class="fa-solid fa-cart-shopping me-1"></i>Cart</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/signUp.html"
+                ><i class="fa-solid fa-lock me-1"></i>Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="w-75 m-auto" />
+      <!-- Navbar alt -->
+      <div class="container-fluid d-lg-flex d-block">
+        <!-- Navbar alt sol -->
+        <div
+          class="collapse navbar-collapse fs-6 navBottom justify-content-lg-start justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav column-gap-3">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Navbar alt sağ -->
+        <div class="container-fluid w-50">
+          <form
+            class="d-flex justify-content-end me-lg-5 me-0 justify-content-lg-end justify-content-center"
+            role="search"
+          >
+            <input
+              class="form-control w-25 rounded-0 bg-body border border-end-0 shadow-none"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn rounded-0 bg-body border border-start-0"
+              type="submit"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Bize ulaşın -->
+    <div class="container row m-auto mb-5 mt-5 p-0 w-75">
+      <!-- Bize ulaşın form -->
+      <div class="container-fluid row col-lg-9 col-md-8">
+        <h3 class="text-center">GET IN TOUCH</h3>
+        <hr />
+        <div class="col-lg-6 mt-3">
+          <input
+            type="text"
+            class="form-control rounded-0 shadow-none border-dark-subtle"
+            placeholder="Name"
+            aria-label="Name"
+          />
+        </div>
+        <div class="col-lg-6 mt-3">
+          <input
+            type="email"
+            class="form-control rounded-0 shadow-none border-dark-subtle"
+            placeholder="E-Mail"
+            aria-label="E-Mail"
+          />
+        </div>
+        <div class="col-lg-12 mt-3">
+          <input
+            type="text"
+            class="form-control rounded-0 shadow-none border-dark-subtle"
+            placeholder="Subject"
+            aria-label="Subject"
+          />
+        </div>
+        <div class="col-lg-12 mt-3">
+          <textarea
+            class="form-control shadow-none border-dark-subtle"
+            id="exampleFormControlTextarea1"
+            placeholder="Your message here"
+            rows="3"
+          ></textarea>
+        </div>
+        <div
+          class="col-lg-12 d-flex justify-content-md-end justify-content-center mt-3"
+        >
+          <input class="btn btn-dark rounded-0" type="submit" value="Submit" />
+        </div>
+      </div>
+
+      <!-- İletişim bilgileri -->
+      <div class="container-fluid col-lg-3 col-md-4">
+        <h3 class="text-center">CONTACT INFO</h3>
+        <hr />
+        <p>E-shopper inc</p>
+        <p>935 W. Webster Ave New Streets Chicago, IL</p>
+        <p>Newyork USA</p>
+        <p>Mobile: +2346 17 38 93</p>
+        <p>Fax: 1-714-252-0026</p>
+        <p>Email: info@e-shopper.com</p>
+        <h5 class="text-center">SOCIAL NETWORKİNG</h5>
+        <hr />
+        <div class="d-flex justify-content-around column-gap-2">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <!-- İletişim bilgileri -->
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid">
+      <!-- Footer üst -->
+      <div class="container-fluid row text-center pb-4">
+        <div class="col-lg-2 col-md-12 text-lg-start border-0">
+          <h1 class="fs-3">E-Shopper</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-lg col-md-3 col-sm-6">
+          <div class="card rounded-0 border-0 cardcont" style="width: auto">
+            <img
+              src="/img/elon.jpg"
+              class="card-img-top fcard rounded-0"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Elon Musk</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-md-3 col-sm-6">
+          <div class="card rounded-0 border-0 cardcont" style="width: auto">
+            <img
+              src="/img/JanetYellen.jpg"
+              class="card-img-top fcard rounded-0"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Janet Yellen</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-md-3 col-sm-6">
+          <div class="card rounded-0 border-0 cardcont" style="width: auto">
+            <img
+              src="/img/Jules.jpg"
+              class="card-img-top fcard rounded-0"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jules Miller</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-md-3 col-sm-6">
+          <div class="card rounded-0 border-0 cardcont" style="width: auto">
+            <img
+              src="/img/jeff.jpg"
+              class="card-img-top fcard rounded-0"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jeff Bezos</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md">
+          <img class="w-100 map" src="/img/harita2.jpg" alt="" />
+        </div>
+      </div>
+      <hr class="w-75 m-auto" />
+      <!-- Footer alt -->
+      <div class="container-fluid row mt-4 text-sm-start text-center">
+        <div class="col-lg col-md-4 col-sm-6 mt-lg-0 mt-2">
+          <div class="list-group-flush">
+            <h3>SERVICE</h3>
+            <a href="#" class="list-group-item list-group-item-action"
+              >Online Help</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              >Contact Us</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              >Order Status</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              >Change Location</a
+            >
+            <a href="#" class="list-group-item list-group-item-action">FAQ's</a>
+          </div>
+        </div>
+
+        <div class="col-lg col-md-4 col-sm-6 mt-lg-0 mt-2">
+          <h3>QUICK SHOP</h3>
+          <a href="#" class="list-group-item list-group-item-action">T-Shirt</a>
+          <a href="#" class="list-group-item list-group-item-action">Mens</a>
+          <a href="#" class="list-group-item list-group-item-action">Womens</a>
+          <a href="#" class="list-group-item list-group-item-action"
+            >Gift Cards</a
+          >
+          <a href="#" class="list-group-item list-group-item-action">Shoes</a>
+        </div>
+
+        <div class="col-lg col-md-4 col-sm-6 mt-lg-0 mt-2">
+          <h3>POLICIES</h3>
+          <a href="#" class="list-group-item list-group-item-action"
+            >Term of Use</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Privacy Policy</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Refun System</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Billing System</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Ticket System</a
+          >
+        </div>
+
+        <div class="col-lg col-md-4 col-sm-6 mt-lg-0 mt-2">
+          <h3>ABOUT SHOPPER</h3>
+          <a href="#" class="list-group-item list-group-item-action"
+            >Company Information</a
+          >
+          <a href="#" class="list-group-item list-group-item-action">Careers</a>
+          <a href="#" class="list-group-item list-group-item-action"
+            >Store Location</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Affillate Program</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Copyright</a
+          >
+        </div>
+
+        <div class="col-lg col-md-4 col-sm-6 mt-lg-0 mt-2"></div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mt-lg-0 mt-2">
+          <h2>About Shopper</h2>
+          <form class="d-flex fformcont" role="submit">
+            <input
+              class="form-control fform fw-semibold rounded-0 shadow-none"
+              type="email"
+              placeholder="Your email adres"
+              aria-label="email"
+            />
+            <button class="btn btn-outline-dark rounded-0" type="submit">
+              <i class="fa-solid fa-right-long"></i>
+            </button>
+          </form>
+          <p>Get the most updates from our site and be updated yourself</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS BS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
